@@ -24,6 +24,7 @@ https://stackoverflow.com/questions/20792572/javascript-replace-all-20-with-a-sp
 */
 
 // ***TODO: Refactor this JS file into two or three files, based on window location.
+// ***TODO: Add cleaner documentation, commenting for each function.
 
 // Helper function for accessing the current movie of the week as it is changed
 function getCurrentMovie() {
