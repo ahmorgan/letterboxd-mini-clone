@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Review</title>
+    <meta name="description" content="Homepage for UNCC's film discussion club.">
+
+    <link href="styles/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="header-full">
+        <header>
+            <h1>
+                UNCC Film Discussion Club
+            </h1>
+            <nav class="nav-container">
+                <a href="index.html">Home</a>
+                <a href="discussion.html">Discussion</a>
+                <a href="activities.html">Club Activities</a>
+                <a href="contact.html">Get Involved</a>
+            </nav>
+        </header>
+    </div>
+    <hr>
+    <main>
+        <h2 class="page-header">
+            Read and respond to review:
+        </h2>
+        <div class="read-review">
+            <h5>
+                {Author} says:
+            </h5>
+            <h3>
+                {Title}
+            </h3>
+            <p class="review-text">
+                Text Here
+            </p>
+            <a>
+                Show/hide responses...
+            </a>
+            <p id="responses" class="inactive align">
+                
+            </p>
+            <label for="response-name">Your name:</label>
+            <input id="response-name" name="response-name">
+            <label for="response-text">Your response:</label>
+            <textarea id="response-text" rows="10" cols="50"></textarea>
+            <br>
+            <a id="submit-response" name="submit-response" type="submit">Respond</a>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright UNCC Film Club, all rights reserved.</p>
+    </footer>
+</body>
+</html>

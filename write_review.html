@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Review</title>
+    <meta name="description" content="Homepage for UNCC's film discussion club.">
+
+    <link href="styles/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="header-full">
+        <header>
+            <h1>
+                UNCC Film Discussion Club
+            </h1>
+            <nav class="nav-container">
+                <a href="index.html">Home</a>
+                <a href="discussion.html">Discussion</a>
+                <a href="activities.html">Club Activities</a>
+                <a href="contact.html">Get Involved</a>
+            </nav>
+        </header>
+    </div>
+    <hr>
+    <main>
+        <h2 class="page-header">
+            Write a review for The Shining (1980)
+        </h2>
+        <div class="write-review">
+            <label for="review-title">Title:</label>
+            <input id="review-title" name="review-title">
+            <label for="review-author">Author:</label>
+            <input id="review-author" name="review-author">
+            <label for="review-text">Review:</label>
+            <textarea id="review-text" rows="10" cols="50"></textarea>
+            <label for="review-score">Score:</label>
+            <input id="review-score" name="review-score">
+            <br>
+            <input id="submit-review" type="submit" name="submit">
+        </div>
+        <h3 class="success-msg">
+            Successfully submitted!
+        </h3>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright UNCC Film Club, all rights reserved.</p>
+    </footer>
+</body>
+</html>

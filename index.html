@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="description" content="Homepage for UNCC's film discussion club.">
+
+    <link href="styles/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    
+    <!--<header> only extends as far as it's flexbox horizontally, but I wanted to set the background
+        color of the entire header block, so I wrapped it in a div to get access to the full header.-->
+    <div class="header-full">
+        <header>
+            <h1>
+                UNCC Film Discussion Club
+            </h1>
+            <nav class="nav-container">
+                <a href="index.html">Home</a>
+                <a href="discussion.html">Discussion</a>
+                <a href="activities.html">Club Activities</a>
+                <a href="contact.html">Get Involved</a>
+            </nav>
+        </header>
+    </div>
+    <hr>
+    <br>
+    <main>
+        <div class="main-row welcome">
+            <div class="main-col">
+                <h2>
+                    The Home of Film Discussion at UNCC
+                </h2>
+                <p>
+                    Welcome to the University of North Carolina at
+                    Charlotte's home for deep film discussion. Here,
+                    we take a collaborative, group-oriented approach
+                    to tackling classics of cinema. Join us in one of
+                    our weekly meetings Thursday at 7:00 in XXXX Hall 
+                    on campus, or discuss the movie of the week (below) 
+                    on our film discussion board.
+                </p>
+            </div>
+            <div class="main-col">
+                <div class="carousel">
+                    <a class="carousel-btn left">
+                        &lt;
+                    </a>
+                    <div class="carousel-container">
+                        <img class="active" src="assets/carousel_images/projector.jpg" alt="first-img">
+                        <img src="assets/carousel_images/theater.jpg" alt="second-img">
+                        <img src="assets/carousel_images/discussion.jpg" alt="third-img">
+                        <img src="assets/carousel_images/friends.jpg" alt="fourth-img">
+                    </div>
+                    <a class="carousel-btn right">
+                        >
+                    </a>
+                </div>
+                <div class="carousel-nav">
+                    <a class="nav nav-active">1</a>
+                    <a class="nav">2</a>
+                    <a class="nav">3</a>
+                    <a class="nav">4</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="main-row now-showing">
+            <div class="main-col">
+                <a href="discussion.html">
+                    <img src="assets/the-shining.jpg" alt="mulholland drive" height="500">
+                </a>
+                <h3>Click poster to join the conversation!</h3>
+            </div>
+            <div class="main-col now-showing-text">
+                <h2>Now Showing: The Shining</h2>
+                <h3><i>Directed by Stanley Kubrick</i></h3>
+                <p>
+                    Jack Torrance accepts a caretaker job at the Overlook Hotel, 
+                    where he, along with his wife Wendy and their son Danny, must 
+                    live isolated from the rest of the world for the winter. But 
+                    they aren't prepared for the madness that lurks within.
+                </p>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright UNCC Film Club, all rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!--References:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+https://stackoverflow.com/questions/20626685/how-do-i-set-distance-between-flexbox-items
+https://developer.mozilla.org/en-US/docs/Web/CSS/outline
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+https://developer.mozilla.org/en-US/docs/Web/CSS/background
+https://stackoverflow.com/questions/50184608/why-does-flex-give-hr-element-width-of-0
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+https://stackoverflow.com/questions/42051528/how-do-i-make-an-image-clickable
+https://stackoverflow.com/questions/5721904/make-body-fill-entire-screen
+https://developer.mozilla.org/en-US/docs/Web/CSS/border 
+https://stackoverflow.com/questions/34247337/object-fit-not-affecting-images
+https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+https://stackoverflow.com/questions/13327532/body-height-not-filling-100-page-height
+https://stackoverflow.com/questions/3197601/white-space-at-bottom-of-anchor-tag
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+https://stackoverflow.com/questions/41033245/does-position-absolute-conflict-with-flexbox
+https://stackoverflow.com/questions/7812511/vertically-aligned-anchor-text
+-->

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion</title>
+    <meta name="description" content="Homepage for UNCC's film discussion club.">
+
+    <link href="styles/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="header-full">
+        <header>
+            <h1>
+                UNCC Film Discussion Club
+            </h1>
+            <nav class="nav-container">
+                <a href="index.html">Home</a>
+                <a href="discussion.html">Discussion</a>
+                <a href="activities.html">Club Activities</a>
+                <a href="contact.html">Get Involved</a>
+            </nav>
+        </header>
+    </div>
+    <hr>
+    <main>
+        <h2 class="page-header">
+            Movie of the Week!
+        </h2>
+        <div class="main-row">
+            <div id="movie-info" class="main-col">
+                <h3 id="current-movie">
+                    The Shining (1980)
+                </h3>
+                <img src="assets/the-shining.jpg" alt="movie" height="500">
+                <h5>
+                    Directed by Stanley Kubrick
+                </h5>
+                <h5>
+                    Starring: 
+                </h5>
+                <p>
+                    <i>
+                        Jack Nicholson,
+                        Shelley Duvall,
+                        Danny Lloyd
+                    </i>
+                </p>
+                <p>
+                    Jack Torrance accepts a caretaker job at the Overlook Hotel, 
+                    where he, along with his wife Wendy and their son Danny, must 
+                    live isolated from the rest of the world for the winter. But 
+                    they aren't prepared for the madness that lurks within.
+                </p>
+                <a href="https://www.imdb.com/title/tt0081505/">
+                    IMDB
+                </a>
+            </div>
+            <div class="reviews-col">
+                <h3>
+                    Reviews
+                </h3>
+                <div class="review-container">
+                    
+                </div>
+                <br>
+                <div class="review-interaction">
+                    <a class="inactive" id="prev-page">
+                        Previous page of reviews...
+                    </a>
+                    <a class="inactive" id="next-page">
+                        Next Page of Reviews...
+                    </a>
+                    <a id="write-review" href="write_review.html?currentMovie=The%20Shining%20(1980)">
+                        Write Review
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3>
+                Vote for the Next Movie of the Week!
+            </h3>
+            <form action="#">
+                <div class="movie-options">
+                    <span>
+                        <input id="movie1" type="radio" name="movie-selection">
+                        <label for="movie1">Ratatouille</label>
+                    </span>
+                    <span>
+                        <input id="movie2" type="radio" name="movie-selection">
+                        <label for="movie2">Interstellar</label>
+                    </span>
+                    <span>
+                        <input id="movie3" type="radio" name="movie-selection">
+                        <label for="movie3">Dr. Strangelove</label>
+                    </span>
+                    <span>
+                        <input id="movie4" type="radio" name="movie-selection">
+                        <label for="movie4">Elf Bowling</label>
+                    </span>
+                </div>
+                <br>
+                <div class="movie-form-other">
+                    <span>
+                        <label for="student-id-movievote">Student ID?</label>
+                        <input id="student-id-movievote" name="movie-selection">
+                    </span>
+                    
+                    <input id="submit" type="submit" name="submit">
+                </div>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <h3>
+                Admin Login
+            </h3>
+            <div class="login-form">
+                <input id="login" name="login" placeholder="Password...">
+                <a id="login-submit">Login</a>
+            </div>
+            <br>
+            <div id="admin-controls" class="inactive">
+                <h3>
+                    Admin: Change the movie of the week (clears current reviews)
+                </h3>
+                <div class="new-movie-form">
+                    <input id="new-movie" name="new-movie" placeholder="New Movie...">
+                    <a class="wide" id="new-movie-submit">Change Movie</a>
+                </div>
+                <h3 id="error-msg" class="inactive">
+                    Movie not found, please check spelling and try and again!
+                </h3>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright UNCC Film Club, all rights reserved.</p>
+    </footer>
+</body>
+</html>
